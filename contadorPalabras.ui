@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>569</width>
+    <height>377</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #FFF1F5;
+    color: #542A42;
+    font-family: &quot;Georgia&quot;;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>20</y>
+      <width>351</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Georgia</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    background-color: transparent;
+    color: #542A42;
+    font-family: &quot;Georgia&quot;;
+    font-size: 30px;
+    font-weight: bold;
+</string>
+    </property>
+    <property name="text">
+     <string>Contador de palabras</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnContar">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>230</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #B85F88;
+    color: white;
+    border: none;
+    border-radius: 22px;
+    padding: 12px 30px;
+    font-family: &quot;Georgia&quot;;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #A64E78;
+}
+
+QPushButton:pressed {
+    background-color: #893D63;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Contar</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="edtCaracteres">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>70</y>
+      <width>381</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    background-color: #FFFCFD;
+    color: #542A42;
+    border: 2px solid #E5A9C2;
+    border-radius: 18px;
+    padding: 15px;
+    font-family: &quot;Georgia&quot;;
+    font-size: 15px;
+    selection-background-color: #E8B8CC;
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+    <property name="placeholderText">
+     <string>Agrega el texto...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tvPalabras">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>230</y>
+      <width>301</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    background-color: transparent;
+    color: #B85F88;
+    font-family: &quot;Georgia&quot;;
+    font-size: 16px;
+    font-weight: bold;
+</string>
+    </property>
+    <property name="text">
+     <string>Palabras: 45</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tvCaracteres">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>240</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+    background-color: transparent;
+    color: #B85F88;
+    font-family: &quot;Georgia&quot;;
+    font-size: 16px;
+    font-weight: bold;</string>
+    </property>
+    <property name="text">
+     <string>Caracteres: 120</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>0</y>
+      <width>71</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Downloads/WhatsApp Image 2026-11-12 at 1.37.27 PM.jpeg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>569</width>
+     <height>17</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
