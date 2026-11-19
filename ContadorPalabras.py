@@ -24,7 +24,7 @@ class ContadorPalabras(QtWidgets.QMainWindow):
         totalCaracteres
         self.tvCaracteres.setText(f"Caracteres: {totalCaracteres}")
 
-        if cantidadPalabras > 50 or totalCaracteres > 120:
+        if cantidadPalabras >= 50 or totalCaracteres >= 120:
             self.tvCaracteres.setStyleSheet("color: red;")
             self.tvPalabras.setStyleSheet("color: red;")
 
