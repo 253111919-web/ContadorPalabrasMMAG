@@ -22,7 +22,15 @@ class ContadorPalabras(QtWidgets.QMainWindow):
         for palabra in textoSeparado:
             totalCaracteres += len(palabra)
         totalCaracteres
-        self.tvCaracteres.setText(f"Palabras: {totalCaracteres}")
+        self.tvCaracteres.setText(f"Caracteres: {totalCaracteres}")
+
+        if cantidadPalabras > 50 or totalCaracteres > 120:
+            self.tvCaracteres.setStyleSheet("color: red;")
+            self.tvPalabras.setStyleSheet("color: red;")
+
+
+        
+
         
 #TODO
 #FIXME
