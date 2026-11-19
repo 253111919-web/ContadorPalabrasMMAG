@@ -27,7 +27,6 @@ class ContadorPalabras(QtWidgets.QMainWindow):
 #TODO
 #FIXME
 #BUG
-
 app = QtWidgets.QApplication(sys.argv)
 ventana = ContadorPalabras()
 ventana.show()
